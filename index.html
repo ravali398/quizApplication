@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+    <div class="panel" id="quiz-container">
+        <h1>Quiz Application</h1>
+        <div class="question" id="question-container">
+            <p id="question-text">Question 1: What is 2 + 2?</p>
+            <div class="options" id="options-container">
+                <label><input type="radio" name="answer" value="A"> 3</label><br>
+                <label><input type="radio" name="answer" value="B"> 4</label><br>
+                <label><input type="radio" name="answer" value="C"> 5</label><br>
+            </div>
+        </div>
+        <button id="next-button">Next</button>
+        <button id="start-over-button" style="display: none;">Re-Take</button>
+        <p id="score" style="display: none;">Thanks for attempting the quiz !!Your Score is: <span id="score-value">0</span></p>
+    </div>
+    <script src="script.js"></script>
+  
+</body>
+</html>
